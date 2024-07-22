@@ -1,0 +1,53 @@
+.left-section{
+    display: flex;
+    flex-direction: column;
+    width: 66px;
+    position: fixed;
+    background-color: white;
+}
+.leftsection-button{
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: 9.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftsection-button:hover{
+    background-color:  rgb(242, 241, 241);
+    cursor: pointer;
+    transition: 0.0s;
+}
+.leftsection-button:active{
+    background-color: rgb(226, 226, 226);
+    border-radius: 0px;
+    transition: 0.2s;
+    border: thin;
+    border-width: 1px;
+    border-color: black;
+}
+.home-icon{
+    height: 24px;
+    padding-bottom: 6px;
+    padding-top: 12px;
+}
+.shorts-icon{
+    height: 30px;
+    padding-bottom: 4px;
+    padding-top: 12px;
+}
+.subscription-icon{
+    height: 25px;
+    padding-top: 14px;
+    padding-bottom: 6px;
+}
+.you-icon{
+    height: 25px;
+    padding-top: 14px;
+}
+.downloads-icon{
+    height: 23px;
+    padding-top: 14px;
+}

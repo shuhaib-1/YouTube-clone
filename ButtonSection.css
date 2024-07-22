@@ -1,0 +1,53 @@
+.button-section{
+   display: grid;
+   grid-auto-flow: column;
+   position: fixed;
+   background-color: white;
+   margin-left: 88px;
+   overflow-x: auto;
+   overscroll-behavior-inline: contain;
+   width: 1360px;
+}  
+.button-section::-webkit-scrollbar{
+    width: 0;
+}
+.search-text{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: max-content;
+    border-radius: 10px;
+    border-style: none;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(240, 240, 240);
+    margin-right: 12px;
+}
+.search-text:hover{
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+    transition: 0.5s;
+}
+.search-text:active{
+    background-color: black;
+    color: white;
+}
+.left-angle-button{
+    position: fixed;
+    height: 34px;
+    font-size: 22px;
+    border: none;
+    background-color:transparent ;
+    color: transparent;
+}
+.right-angle-button{
+    position: fixed;
+    height: 34px;
+    font-size: 22px;
+    margin-left: 1280px;
+    border: none;
+    background-color:transparent ;
+    color: transparent;
+}
